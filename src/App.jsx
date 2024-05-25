@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import Modal from "@marialenap/my-modal";
+import "../node_modules/@marialenap/my-modal/dist/style.css";
 
 function App() {
   const buttonOpen = useRef(null);
